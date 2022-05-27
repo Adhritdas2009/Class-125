@@ -1,0 +1,75 @@
+#header{
+    width: 100%;
+    padding: 10px;
+    font-family: 'Macondo', cursive;
+    opacity: 0.9;
+    background-color: yellowgreen;
+}
+
+#footer{
+    margin-top: 465px;
+    font-family: 'Macondo', cursive;
+    opacity: 0.8;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+#real{
+    font-size: 25px;
+    font-family: 'Macondo', cursive;
+}
+
+#hw{
+    font-size: 25px;
+    font-family: 'Macondo', cursive;
+}
+
+#note{
+    font-size: 17px;
+    font-family: 'Macondo', cursive;
+}
+
+body{
+    background-image: url('bg.jpg') !important;
+    background-size: cover;
+}
+
+canvas{
+    border: 2px ridge black;
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 3px 3px 20px rgb(73, 227, 139);
+    }
+
+    to{
+        box-shadow: 3px 3px 20px rgb(115, 201, 250);
+    }
+}
+
+video{
+    border: 0.5px ridge black;
+    border-radius: 50px;
+    animation-name: name;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes name{
+    from{
+        box-shadow: 3px 3px 20px rgb(244, 90, 51);
+    }
+    to{
+        box-shadow: 3px 3px 20px rgb(173, 231, 59);
+    }
+}
